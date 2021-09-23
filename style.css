@@ -327,16 +327,24 @@ background-color: #333333;
 
               /*Phone*/
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 765px) {
+#logo{
+margin-left: 4px;
+}
+#menu{
+  margin-right: 4px;
+}
 .sidenav {
-    padding-top: 5px;}
+padding-top: 5px;
+marrgin :0px}
 .sidenav a {font-size: 18px;}
 
       /*landing*/
 
 .landing{
   height: 600px;
-  background-position: right;
+  background-position: 75% center;;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative ;
@@ -368,19 +376,25 @@ display: none;
          /*best*/
 .best {
   display: inline-block;
-  padding-top: 10px;
-  padding-right: 15px;
+  padding-top: 5px;
+  padding-right: 19px;
+  padding-left: 0px;
   
 }
           /*Our services*/
+#service h1{
+padding-left: 0px;
+text-align: center;
+}          
 
 .flex-container {
   display: inline-block;
   margin: 0px;
   margin-right: 0px;
-   }
+}
+
 .abs{
-  font-size: 25px;
+  font-size: 13px;
 }
 .blew{
   display: inline-block;
@@ -396,11 +410,16 @@ display: none;
   #todo{
     display: inline-block;
   }
-  button[type=submit] {
-    padding: 0;
+ #todo h1{
+    font-size: 19px;
   }
+   #todo p{
+    font-size: 15px;
+  }
+  
 
 }
+
 
 
               /*Ipad*/
