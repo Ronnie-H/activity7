@@ -84,7 +84,7 @@ grid-column: 1 / span 3;
 grid-row: 1;
 width: 700px;
 color: white;
-}			
+}     
 
 .item2, .item3, .item4{
 color: white;
@@ -216,7 +216,7 @@ align-content: left;
 }
 .flexbox{
 display :inline-flex;
-margin-left:200px ;	
+margin-left:200px ; 
 margin-top:100px ;
 margin-bottom: 100px;
 
@@ -327,7 +327,6 @@ background-color: #333333;
 
               /*Phone*/
 
-
 @media only screen and (max-width: 765px) {
 #logo{
 margin-left: 4px;
@@ -350,12 +349,25 @@ marrgin :0px}
   position: relative ;
  padding-left:0px ;
 }
+
+.grid-container{
+  width:280px ;
+}
+.item1 h1 {
+text-align: left;
+}
+.item1 hr {
+width: auto;
+}
+
+
 .item1 {
 
-width: auto;
+width: 300px;
 color: white;
 font-size: 18px;
-padding-top: 210px;
+padding-top: 240px;
+align-items: left;
 }     
 
 .item2, .item3, .item4{
@@ -426,22 +438,74 @@ text-align: center;
 @media only screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
- 
-   /*landing*/
 
 
+ #logo{
+margin-left: 4px;
+}
+#menu{
+  margin-right: 4px;
+}
+.sidenav {
+padding-top: 5px;
+marrgin :0px}
+.sidenav a {font-size: 18px;}
+  
+    /*landing*/
+
+
+.landing{
+  background-position: 50% center;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative ;
+ padding-left:0px ;
+}
+.grid-container{
+
+  height: 200px;
+  width: 150px;
+
+}
+.item1 {
+
+width: auto;
+color: white;
+font-size: 25px;
+padding-top: 100px;
+}     
+
+.item2, .item3, .item4{
+width: 120px;
+height: 100px;
+}
+  /*services*/
   /*plumbers*/
+
 
 .grid-con{
   display: inline-block;
+  width: auto;
+  padding: 20px;
+  margin: 0px;
 }
 
 /*best*/
 .best{
-  display: flex;
+  display: inline-flex;
+  padding-right: 15px;
+}
+.b{
+  width: 80%;
+  margin-right: 50px;
 }
 
 /*our services*/
+
+#service h1{
+padding-left: 0px;
+text-align: center;
+} 
 
 .flex-container {
   display:flex;
@@ -454,5 +518,27 @@ and (orientation : portrait) {
 .blew{
   display: block;
 }
+.c{
+  margin-left: 35px;
+  
+}
+.d{
+  margin: 35px;
+}
+  /*To do*/
+          /*Todo*/
+  #todo{
+    display: inline-block;
+    margin-left: 50px;
+  }
+ #todo h1{
+    font-size: 35px;
+
+  }
+   #todo p{
+    font-size:25px;
+  }
+  
+
 
 }
