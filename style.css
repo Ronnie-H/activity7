@@ -339,11 +339,8 @@ background-color: #333333;
 
               /*Phone*/
 
-@media only screen and (max-width: 765px) {
-body{
-  margin: 0px;
-  padding: 0px;
-}
+@media only screen and (max-width: 767px) {
+
 #logo{
 margin-left: 4px;
 }
@@ -448,7 +445,9 @@ text-align: center;
     font-size: 15px;
   }
  
-
+input{ display: block;
+  margin-top: 10px;
+ 
 }
 
 
