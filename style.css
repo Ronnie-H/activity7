@@ -508,7 +508,7 @@ text-align: center;
 } 
 
 .flex-container {
-  display:flex;
+  display:inline-block;
   padding-bottom: 50px;
 
    }
@@ -516,7 +516,7 @@ text-align: center;
 /* blue */
 
 .blew{
-  display: block;
+  display:inline-block;
 }
 .c{
   margin-left: 35px;
