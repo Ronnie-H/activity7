@@ -340,6 +340,10 @@ background-color: #333333;
               /*Phone*/
 
 @media only screen and (max-width: 765px) {
+body{
+  margin: 0px;
+  padding: 0px;
+}
 #logo{
 margin-left: 4px;
 }
